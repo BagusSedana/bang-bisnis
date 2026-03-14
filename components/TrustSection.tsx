@@ -77,9 +77,10 @@ export default function TrustSection() {
             <ScrollReveal 
               key={i} 
               delay={400 + i * 150} 
-              className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'} 
-                ${i === 1 || i === 3 ? 'border-l border-ink-100' : ''} 
-                ${i === 2 ? 'border-t md:border-t-0 md:border-l border-ink-100' : ''}
+              className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'} border-ink-100
+                ${i === 1 ? 'border-l' : ''} 
+                ${i === 2 ? 'border-t md:border-t-0 md:border-l' : ''}
+                ${i === 3 ? 'border-t md:border-t-0 border-l' : ''}
               `}
             >
               <div

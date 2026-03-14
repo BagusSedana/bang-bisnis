@@ -164,17 +164,16 @@ export default function HeroSection() {
         </div>
 
         {/* Stats strip at very bottom of blue section */}
-        <div className="border-t border-white/10 py-6 flex flex-wrap gap-8 mt-0">
+        <div className="border-t border-white/10 py-6 flex flex-wrap gap-y-6 gap-x-8 mt-0">
           {[
             { num: '5+', label: 'Bisnis Terbantu' },
             { num: '100%', label: 'Klien Puas' },
             { num: '3–7 Hari', label: 'Pengerjaan' },
             { num: '24/7', label: 'Support' },
           ].map((s, i) => (
-            <div key={i} className="flex items-center gap-4">
+            <div key={i} className={`flex items-center gap-4 ${i > 0 ? 'sm:border-l sm:border-white/10 sm:pl-8' : ''}`}>
               <span className="font-display font-bold text-white text-2xl tracking-tight">{s.num}</span>
               <span className="text-white/50 text-xs uppercase tracking-widest">{s.label}</span>
-              {i < 3 && <div className="hidden sm:block w-px h-5 bg-white/20 ml-4" />}
             </div>
           ))}
         </div>
