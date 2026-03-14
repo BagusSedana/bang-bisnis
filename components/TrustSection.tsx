@@ -71,17 +71,13 @@ export default function TrustSection() {
           </ScrollReveal>
         </div>
 
-        {/* Stats — editorial horizontal */}
-        <div className="grid grid-cols-2 md:grid-cols-4 border border-ink-100 rounded-2xl overflow-hidden mb-10">
+        {/* Stats — editorial horizontal with robust gap borders */}
+        <div className="grid grid-cols-2 md:grid-cols-4 bg-ink-100 gap-[1px] border border-ink-100 rounded-2xl overflow-hidden mb-10">
           {stats.map((s, i) => (
             <ScrollReveal 
               key={i} 
               delay={400 + i * 150} 
-              className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'} border-ink-100
-                ${i === 1 ? 'border-l' : ''} 
-                ${i === 2 ? 'border-t md:border-t-0 md:border-l' : ''}
-                ${i === 3 ? 'border-t md:border-t-0 border-l' : ''}
-              `}
+              className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'}`}
             >
               <div
                 className="group p-6 flex flex-col gap-1 h-full cursor-default"
