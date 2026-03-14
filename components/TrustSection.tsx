@@ -1,9 +1,9 @@
 import ScrollReveal from './ScrollReveal'
 
 const stats = [
-  { num: '30+', label: 'Bisnis Terbantu' },
+  { num: '5+', label: 'Bisnis Terbantu' },
   { num: '98%', label: 'Klien Puas' },
-  { num: '3–14 Hari', label: 'Pengerjaan' },
+  { num: '3–7 Hari', label: 'Pengerjaan' },
   { num: '24/7', label: 'Support' },
 ]
 
@@ -66,7 +66,7 @@ export default function TrustSection() {
           </div>
           <ScrollReveal delay={300}>
             <p className="max-w-sm text-ink-600 text-sm leading-relaxed md:text-right">
-              Lebih dari <strong className="text-ink-900">30+ bisnis</strong> telah mempercayakan pembuatan website profesional mereka kepada Credentia Studio.
+              Lebih dari <strong className="text-ink-900">5+ bisnis</strong> telah mempercayakan pembuatan website profesional mereka kepada Credentia Studio.
             </p>
           </ScrollReveal>
         </div>
@@ -74,7 +74,14 @@ export default function TrustSection() {
         {/* Stats — editorial horizontal */}
         <div className="grid grid-cols-2 md:grid-cols-4 border border-ink-100 rounded-2xl overflow-hidden mb-10">
           {stats.map((s, i) => (
-            <ScrollReveal key={i} delay={400 + i * 150} className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'} ${i > 0 ? 'border-l border-ink-100' : ''}`}>
+            <ScrollReveal 
+              key={i} 
+              delay={400 + i * 150} 
+              className={`h-full ${i % 2 === 0 ? 'bg-white' : 'bg-surface'} 
+                ${i === 1 || i === 3 ? 'border-l border-ink-100' : ''} 
+                ${i === 2 ? 'border-t md:border-t-0 md:border-l border-ink-100' : ''}
+              `}
+            >
               <div
                 className="group p-6 flex flex-col gap-1 h-full cursor-default"
               >
