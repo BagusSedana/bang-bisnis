@@ -29,7 +29,7 @@ export default function WhyUsSection() {
           <h2 className="section-title-white max-w-2xl">
             <ScrollReveal as="span" delay={100}>Mengapa Memilih</ScrollReveal>
             <br />
-            <ScrollReveal as="span" delay={200}><span className="text-blue-primary">Credentia Studio</span>?</ScrollReveal>
+            <ScrollReveal as="span" delay={200}><span className="text-blue-primary">bangbisnis</span>?</ScrollReveal>
           </h2>
         </div>
 
@@ -60,7 +60,7 @@ export default function WhyUsSection() {
           </div>
           <div className="relative z-10 flex-shrink-0">
             <a
-              href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis."
+              href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-ink-900 font-bold px-8 py-4 rounded-full hover:bg-ink-100 transition-colors shadow-xl shadow-ink-900/10"

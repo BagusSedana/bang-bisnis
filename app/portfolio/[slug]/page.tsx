@@ -128,7 +128,7 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
                 </ScrollReveal>
 
                 <ScrollReveal delay={200}>
-                  <h2 className="text-3xl text-ink-900 mb-4">Solusi Credentia Studio</h2>
+                  <h2 className="text-3xl text-ink-900 mb-4">Solusi bangbisnis</h2>
                   <ul className="space-y-4 mb-12 list-none pl-0">
                     {portfolio.solution.map((item, idx) => (
                       <li key={idx} className="flex gap-4 items-start">

@@ -2,19 +2,19 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Credentia Studio — Jasa Pembuatan Website Profesional untuk Bisnis',
-  description: 'Credentia Studio membantu bisnis membangun kredibilitas digital melalui website profesional yang meningkatkan kepercayaan pelanggan dan memperkuat identitas brand. SEO-friendly, mobile-ready.',
-  keywords: 'jasa pembuatan website profesional, website bisnis, website company profile, website UMKM, landing page, SEO, Credentia Studio',
+  title: 'bangbisnis — Jasa Pembuatan Website Profesional untuk Bisnis',
+  description: 'bangbisnis membantu bisnis membangun kredibilitas digital melalui website profesional yang meningkatkan kepercayaan pelanggan dan memperkuat identitas brand. SEO-friendly, mobile-ready.',
+  keywords: 'jasa pembuatan website profesional, website bisnis, website company profile, website UMKM, landing page, SEO, bangbisnis',
   openGraph: {
-    title: 'Credentia Studio — Website Profesional untuk Bisnis Anda',
+    title: 'bangbisnis — Website Profesional untuk Bisnis Anda',
     description: 'Kami merancang website yang membantu bisnis terlihat profesional, dipercaya pelanggan, dan mudah ditemukan di Google.',
     type: 'website',
     locale: 'id_ID',
-    siteName: 'Credentia Studio',
+    siteName: 'bangbisnis',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credentia Studio — Website Profesional untuk Bisnis Anda',
+    title: 'bangbisnis — Website Profesional untuk Bisnis Anda',
     description: 'Jasa pembuatan website profesional untuk UMKM dan bisnis lokal Indonesia.',
   },
   robots: {
@@ -43,9 +43,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Credentia Studio",
+              "name": "bangbisnis",
               "description": "Jasa pembuatan website profesional untuk bisnis dan UMKM Indonesia",
-              "url": "https://credentiastudio.com",
+              "url": "https://bangbisnis.com",
               "telephone": "+62",
               "address": {
                 "@type": "PostalAddress",

@@ -88,7 +88,7 @@ export default function PricingSection() {
 
   const getAddonsWaLink = () => {
     if (selectedAddons.length === 0) return '#'
-    const text = `Halo Credentia Studio, saya tertarik untuk menambahkan layanan Add-on berikut ke website saya:%0A- ${selectedAddons.join('%0A- ')}`
+    const text = `Halo bangbisnis, saya tertarik untuk menambahkan layanan Add-on berikut ke website saya:%0A- ${selectedAddons.join('%0A- ')}`
     return `https://wa.me/6287701785344?text=${text}`
   }
 
@@ -164,7 +164,7 @@ export default function PricingSection() {
               </ul>
 
               <a
-                href={`https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20tertarik%20dengan%20paket%20pembuatan%20website%20${p.name}.`}
+                href={`https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20tertarik%20dengan%20paket%20pembuatan%20website%20${p.name}.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`group w-full flex items-center justify-center gap-2.5 transition-all duration-300 ${
@@ -253,7 +253,7 @@ export default function PricingSection() {
           <p className="text-ink-500 text-sm">
             Butuh fitur khusus atau bingung memilih paket?{' '}
             <a 
-              href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20mengenai%20paket%20website%20yang%20cocok%20untuk%20bisnis%20saya." 
+              href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20mengenai%20paket%20website%20yang%20cocok%20untuk%20bisnis%20saya." 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-blue-primary font-semibold hover:underline"

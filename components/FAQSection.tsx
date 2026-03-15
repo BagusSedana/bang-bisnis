@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal'
 
 const faqs = [
   {
-    q: 'Berapa lama proses pembuatan website di Credentia Studio?',
+    q: 'Berapa lama proses pembuatan website di bangbisnis?',
     a: 'Waktu penyelesaian bervariasi. Untuk Landing Page sekitar 3-5 hari. Company Profile 5-7 hari. Toko Online atau sistem custom bisa memakan waktu 14 hari atau lebih tergantung kompleksitas.',
   },
   {
@@ -24,7 +24,7 @@ const faqs = [
     a: 'Ya, struktur website kami sudah dirancang SEO-friendly sejak tahap pengembangan dasar. Kami juga mendaftarkan website Anda ke Google Search Console. Namun, untuk tampil di halaman pertama mungkin memerlukan optimasi SEO lanjutan.',
   },
   {
-    q: 'Apa bedanya Credentia Studio dengan jasa website murah lainnya?',
+    q: 'Apa bedanya bangbisnis dengan jasa website murah lainnya?',
     a: 'Kami tidak sekadar menjual "template jadi". Kami memikirkan struktur konten, navigasi user, branding, kecepatan akses, dan keamanan. Anda mendapatkan partner teknis, bukan sekadar tukang instal website.',
   },
 ]

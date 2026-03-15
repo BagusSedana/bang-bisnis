@@ -37,7 +37,7 @@ export default function SolutionSection() {
           </ScrollReveal>
           <ScrollReveal delay={400}>
             <a
-              href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis."
+              href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

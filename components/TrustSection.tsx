@@ -66,7 +66,7 @@ export default function TrustSection() {
           </div>
           <ScrollReveal delay={300}>
             <p className="max-w-sm text-ink-600 text-sm leading-relaxed md:text-right">
-              Lebih dari <strong className="text-ink-900">5+ bisnis</strong> telah mempercayakan pembuatan website profesional mereka kepada Credentia Studio.
+              Lebih dari <strong className="text-ink-900">5+ bisnis</strong> telah mempercayakan pembuatan website profesional mereka kepada bangbisnis.
             </p>
           </ScrollReveal>
         </div>

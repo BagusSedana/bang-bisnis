@@ -48,7 +48,7 @@ export default function PortfolioSection() {
           </div>
           <ScrollReveal delay={200}>
             <a
-              href="https://wa.me/6287701785344?text=Halo%2C%20saya%20ingin%20melihat%20portfolio%20Credentia%20Studio."
+              href="https://wa.me/6287701785344?text=Halo%2C%20saya%20ingin%20melihat%20portfolio%20bangbisnis."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"

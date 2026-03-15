@@ -30,7 +30,7 @@ export default function FinalCTASection() {
 
         <ScrollReveal delay={400} className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
           <a
-            href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis%20untuk%20pembuatan%20website."
+            href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis%20untuk%20pembuatan%20website."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-ink-900 font-bold px-10 py-5 rounded-full hover:bg-ink-100 transition-colors shadow-2xl shadow-ink-900/20 text-lg"

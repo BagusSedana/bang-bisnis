@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'Budi Santoso',
     company: 'Warung Makan Bu Sari',
-    quote: 'Sejak menggunakan website dari Credentia Studio, pemesanan katering online kami naik drastis. Penampilannya sangat profesional dan mudah digunakan pelanggan.',
+    quote: 'Sejak menggunakan website dari bangbisnis, pemesanan katering online kami naik drastis. Penampilannya sangat profesional dan mudah digunakan pelanggan.',
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: 'Ahmad Fauzi',
     company: 'CV Maju Properti',
-    quote: 'Tampilan website sangat premium, membuat klien kami lebih percaya saat melihat katalog properti. Tim Credentia juga sangat ramah dan responsif.',
+    quote: 'Tampilan website sangat premium, membuat klien kami lebih percaya saat melihat katalog properti. Tim bangbisnis juga sangat ramah dan responsif.',
     rating: 5,
   },
 ]

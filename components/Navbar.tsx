@@ -34,7 +34,7 @@ export default function Navbar() {
           <span className={`font-display font-bold text-base tracking-tight transition-colors ${
             scrolled ? 'text-ink-900' : 'text-white'
           }`}>
-            Credentia Studio
+            bangbisnis
           </span>
         </a>
 
@@ -60,7 +60,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex">
           <a
-            href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis."
+            href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis."
             target="_blank"
             rel="noopener noreferrer"
             className={`text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 ${
@@ -108,7 +108,7 @@ export default function Navbar() {
             ))}
             <li className="pt-3">
               <a
-                href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis."
+                href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-blue-primary text-white text-sm font-semibold px-4 py-3 rounded-full text-center"

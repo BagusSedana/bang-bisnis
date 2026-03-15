@@ -11,10 +11,10 @@ export default function Footer() {
           <div className="lg:col-span-4 pr-10">
             <a href="#home" className="flex items-center gap-2.5 mb-8">
               <div className="w-8 h-8 bg-blue-primary rounded flex items-center justify-center">
-                <span className="text-white font-display font-bold text-sm">CS</span>
+                <span className="text-white font-display font-bold text-sm">BB</span>
               </div>
               <span className="font-display font-bold text-lg tracking-tight">
-                Credentia Studio
+                bangbisnis
               </span>
             </a>
             <p className="text-ink-400 text-sm leading-relaxed mb-8 max-w-sm">
@@ -63,7 +63,7 @@ export default function Footer() {
             <h4 className="font-display font-medium text-white mb-6">Hubungi Kami</h4>
             <ul className="space-y-4">
               <li>
-                <a href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis." className="flex items-start gap-4 group" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis." className="flex items-start gap-4 group" target="_blank" rel="noopener noreferrer">
                   <div className="w-8 h-8 rounded-full border border-ink-800 flex items-center justify-center text-ink-400 group-hover:bg-blue-primary group-hover:border-blue-primary group-hover:text-white transition-all">
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -83,7 +83,7 @@ export default function Footer() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-ink-400 pt-1.5">hello@credentiastudio.com</p>
+                    <p className="text-sm text-ink-400 pt-1.5">hello@bangbisnis.com</p>
                   </div>
                 </div>
               </li>
@@ -92,7 +92,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ink-500">
-          <p>&copy; {currentYear} Credentia Studio. Hak Cipta Dilindungi.</p>
+          <p>&copy; {currentYear} bangbisnis. Hak Cipta Dilindungi.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

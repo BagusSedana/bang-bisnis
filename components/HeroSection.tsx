@@ -83,7 +83,7 @@ export default function HeroSection() {
 
             <ScrollReveal delay={800} className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20ingin%20konsultasi%20gratis."
+                href="https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20ingin%20konsultasi%20gratis."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-ink-900 font-semibold text-sm px-6 py-3 rounded-full hover:bg-ink-100 transition-colors"

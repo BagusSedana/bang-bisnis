@@ -49,7 +49,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
             
             <ScrollReveal delay={300} className="mt-10">
               <a
-                href={`https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20layanan%20${service.title}.`}
+                href={`https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20layanan%20${service.title}.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center gap-2"
@@ -137,7 +137,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                     <div className="mt-12 pt-8 border-t border-ink-800">
                       <p className="text-ink-400 text-sm mb-4">Masih punya pertanyaan lain?</p>
                       <a
-                        href={`https://wa.me/6287701785344?text=Halo%20Credentia%20Studio%2C%20saya%20punya%20pertanyaan%20mengenai%20${service.title}.`}
+                        href={`https://wa.me/6287701785344?text=Halo%20bangbisnis%2C%20saya%20punya%20pertanyaan%20mengenai%20${service.title}.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-white text-ink-900 font-bold px-6 py-3 rounded-full hover:bg-ink-100 transition-colors w-full text-center text-sm"
