@@ -25,7 +25,7 @@ export const portfolios: PortfolioData[] = [
     client: 'Cipta Bersama',
     industry: 'F&B Supplier',
     year: '2024',
-    websiteUrl: 'https://cipta-bersama.vercel.app',
+    websiteUrl: 'https://cipta-bersama.com',
     color: 'bg-red-100',
     heroImage: '/cb.png', // Fallback to their logo or a generic mockup if needed later
     summary: 'Membangun kehadiran digital profesional untuk Cipta Bersama, distributor daging premium B2B di Jakarta, guna meyakinkan mitra bisnis skala besar (hotel, restoran) dengan sekali pandang.',
@@ -70,6 +70,29 @@ export const portfolios: PortfolioData[] = [
       { label: 'Conversion Rate', value: '+30%' },
       { label: 'Bounce Rate', value: '-25%' },
       { label: 'Kecepatan Halaman (Mobile)', value: 'Score 99' },
+    ]
+  },
+  {
+    slug: 'seo-scanner',
+    title: 'Platform Analisis SEO Komprehensif dan Modern',
+    client: 'SEO Scanner',
+    industry: 'SaaS Software',
+    year: '2024',
+    websiteUrl: 'https://seo-scanner-frontend.vercel.app/',
+    color: 'bg-indigo-100',
+    heroImage: '', // Placeholder
+    summary: 'Pengembangan tools analisis SEO terintegrasi yang membantu pemilik website dan digital marketer untuk melakukan audit teknikal dan performa secara otomatis.',
+    challenge: 'Membangun platform scanning SEO yang sangat interaktif dan sanggup menyajikan data teknikal kompleks (Core Web Vitals, On-Page SEO) menjadi bentuk laporan visual yang intuitif dan bernilai jual, sekaligus memastikan kinerja aplikasi tetap instan.',
+    solution: [
+      'Pembangunan dashboard analitik real-time dengan visualisasi data yang tajam dan responsif.',
+      'Sistem generate laporan PDF "White-Label" profesional dengan kustomisasi visual.',
+      'Arsitektur aplikasi modern decoupling frontend-backend untuk skalabilitas tinggi.',
+      'Penerapan UI/UX modern berbasis komponen untuk kemudahan operasional digital marketer.'
+    ],
+    results: [
+      { label: 'Performa Aplikasi', value: 'Skor 100' },
+      { label: 'Efisiensi Report', value: 'Instan' },
+      { label: 'Akurasi Analisa', value: '99%' },
     ]
   }
 ];

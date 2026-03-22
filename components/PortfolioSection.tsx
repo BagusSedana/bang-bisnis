@@ -21,11 +21,12 @@ const portfolioItems = [
     websiteUrl: portfolios[1].websiteUrl
   },
   {
-    title: 'Berkah Laundry',
-    industry: 'Jasa - Denpasar',
-    desc: 'Landing page praktis buat jasa laundry biar pelanggan tinggal klik & jemput.',
-    color: 'bg-teal-50',
-    href: '#'
+    title: portfolios[2].client,
+    industry: portfolios[2].industry + ' - Global',
+    desc: portfolios[2].summary,
+    color: 'bg-indigo-50',
+    href: '/portfolio/seo-scanner',
+    websiteUrl: portfolios[2].websiteUrl
   },
   {
     title: 'Kopi Senja',
